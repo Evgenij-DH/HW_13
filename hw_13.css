@@ -229,6 +229,10 @@ body {
     text-transform: uppercase;
     letter-spacing: -0.46px;
 }
+.button_story:hover {
+    background-color:#b5b5b5;
+    color:  #ffffff;
+}
 .story_text {
     color: #ffffff;
     font-size: 20px;
