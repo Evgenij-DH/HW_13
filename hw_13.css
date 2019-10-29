@@ -96,7 +96,7 @@ body {
     letter-spacing: -1.2px;
 } 
 .header_menu {
-    width: 520px;
+    max-width: 520px;
 }
 .menu_items {
     display: flex;
@@ -241,6 +241,76 @@ body {
     letter-spacing: -0.4px;
     max-width: 59%;
 }
+.main_pricing {
+    background-color: #e3d5b8;
+    padding-top: 65px;
+    text-align: center;
+}
+.pricing_heading {
+    color: #1f1f1f;
+    font-family: 'Montserrat_Bold', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 80px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+.main_card_two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 59px;
+}
+.pricing_card {
+    width: 32%;
+    background-color: #ffffff;
+    border-radius: 3px;
+    padding: 35px 55px 13px 58px;
+}
+.card_name, .card_conditions {
+    color: #161616;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.44px;
+}
+.card_price {
+    margin-top: 38px;
+    color: #d03958;
+    font-family: 'Montserrat_Bold', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 80px;
+    text-transform: uppercase;
+    letter-spacing: -1.2px;
+}
+.card_conditions {
+    margin-top: 30px;
+    margin-bottom: 37px;
+    font-size: 20px;
+}
+.button_pricing {
+    background-color: #e3d5b8;
+    padding: 17px 60px 15px 55px;
+    border-radius: 4px;
+    color: #161616;
+    font-family: 'Montserrat_Regular', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+    letter-spacing: -0.44px;
+    text-decoration: none;
+}
+.button_pricing:hover {
+    background-color: #d03958;
+    color: #ffffff;
+}
+.free {
+    padding: 17px 83px 15px 79px;
+}
+
+
 
 
 .container {    
